@@ -33,7 +33,7 @@ h1, h2, h3 {
 }
 
 h1 {  
-  font-size: 4.5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: normal;
   text-shadow: 0 1px 1px rgba(0,0,0,.8);
@@ -76,8 +76,7 @@ header, footer {
 }
 
 header {
-  height: 850px;
-  padding-top: 8rem;
+  padding: 10vh 0;
   background: url('../img/mountains.jpg') no-repeat center;
   background-color: #F3753B;
   background-blend-mode: multiply;
@@ -90,7 +89,7 @@ header {
 }
 .arrow {
   width: 2.5rem;
-  margin-top: 8rem;
+  margin-top: 10vh;
 }
 
 section {
@@ -138,10 +137,17 @@ footer {
 }
 
 @media screen and (min-width: 720px) {
+  header {
+    padding: 20vh 0;
+  }
+  h1 {
+    font-size: 5rem;
+  }
   .column {
     width: 48%;
     display: inline-block;
     vertical-align: top;
+    margin-left: -4px;
   }
   .column:first-child {
     margin-right: 4%;
