@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  color: #454959  ;
+  color: #454959;
   margin: 0;
   font: 300 1em/1.5 'Work Sans', sans-serif;
 }
@@ -87,9 +87,12 @@ header {
   margin-bottom: .5rem;
   letter-spacing: .05rem;
 }
-.arrow {
-  width: 2.5rem;
-  margin-top: 5vh;
+h1:after {
+  /* https://www.toptal.com/designers/htmlarrows/arrows/ */
+  content: "\27B8";
+  display: block;
+  margin-top: 10vh;
+  transform: rotate(90deg);
 }
 
 section {
@@ -145,7 +148,6 @@ footer {
   }
   .arrow {
     margin-top: 10vh;
-    border: 1px solid red;
   }
   .column {
     width: 48%;
