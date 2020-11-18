@@ -72,11 +72,11 @@ a {
 
 /* Main Styles --------------------- */
 header, footer {
-  text-align: center;
+  text-align: center; 
 }
 
 header {
-  padding: 10vh 0;
+  padding: 10vh 1rem;
   background: url('../img/mountains.jpg') no-repeat center;
   background-color: #F3753B;
   background-blend-mode: multiply;
@@ -133,7 +133,7 @@ section {
 }
 footer {
   font-size: .9rem;
-  padding: 3rem 0 6rem;
+  padding: 3rem 1rem 6rem;
 }
 
 @media screen and (min-width: 720px) {
@@ -145,6 +145,7 @@ footer {
   }
   .arrow {
     margin-top: 10vh;
+    border: 1px solid red;
   }
   .column {
     width: 48%;
